@@ -5,4 +5,53 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  background-color: antiquewhite;
+}
+
+header {
+  text-align: center;
+  position: absolute;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: mediumseagreen;
+}
+
+h1 {
+  text-align: center;
+}
+
+.exampleImage {
+  float: right;
+  width: 500px;
+  margin-right: 114px;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+figcaption {
+  font-size: 15px;
+  color: grey;
+  opacity: .3;
+}
+
+.introduction {
+  float: left;
+  width: 600px;
+  margin-left: 114px;
+}
+
+#footerText {
+  text-align: left;
 }
