@@ -5,29 +5,28 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
-  background-color: antiquewhite;
+  background-color: lightsteelblue;
   padding-top: 60px;
 }
 
 header {
-  text-align: center;
   position: absolute;
   top: 0;
-  background-color: mediumseagreen;
   width: 100%;
   height: 60px;
 }
 
 footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: mediumseagreen;
+  background-color: indianred;
+  clear: both;
 }
 
 h1 {
   text-align: center;
+  color: black;
 }
 
 .exampleImage {
@@ -41,7 +40,7 @@ figure {
 }
 
 img {
-  border: 5px solid black;
+  border: 4px solid black;
   border-radius: 15px;
 }
 
@@ -49,6 +48,7 @@ figcaption {
   font-size: 15px;
   color: grey;
   opacity: .7;
+  padding-top: 5px;
 }
 
 .introduction {
@@ -58,5 +58,46 @@ figcaption {
 }
 
 #footerText {
-  text-align: left;
+  text-align: right;
+  padding-top: 20px;
+}
+
+#chunkOne {
+  float: top;
+  height: 400px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#chunkTwo {
+  float: bottom;
+  height: 400px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.navButton {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  clear: ;both
+}
+
+.navButton:hover {
+  background-color: indianred;
+  border: 3px solid black;
 }
